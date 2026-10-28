@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kota Sai Santhosh is a Communication and Computer Engineering student building across full-stack development, AI/ML, and applied engineering.">
+  <meta name="theme-color" content="#f3f1e9">
+  <title>Kota Sai Santhosh — Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Serif+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Kota Sai Santhosh, home">KS<span>.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="about.html">About</a>
+      <a href="#experience">Experience</a>
+      <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-topline"><span>COMMUNICATION &amp; COMPUTER ENGINEERING</span><span class="availability"><i></i> LNMIIT · JAIPUR</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow">HELLO, I’M KOTA SAI SANTHOSH</p>
+        <h1 id="hero-title">Engineering<br><span class="hero-outline">what’s next</span><span class="period">.</span></h1>
+        <div class="hero-bottom">
+          <p class="hero-summary">Computer Engineering student building across <strong>full-stack development, AI/ML, and applied engineering research.</strong></p>
+          <div class="hero-actions"><a class="primary-link" href="#work">Explore projects <span aria-hidden="true">↓</span></a><a class="text-link" href="mailto:kotasaisanthosh.cs25@rvce.edu.in">Get in touch <span aria-hidden="true">↗</span></a></div>
+        </div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true"><span class="orbit-dot"></span><span class="orbit-label">BUILD<br>· TEST<br>· LEARN</span><span class="orbit-center">✳</span></div>
+      <div class="hero-index" aria-hidden="true">PORTFOLIO / 2026</div>
+    </section>
+
+    <section class="work-section section-shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">RESEARCH, EXPERIMENTS &amp; SOFTWARE</p><h2 id="work-title">Selected work<span class="period">.</span></h2></div>
+        <span class="section-count">05 PROJECTS</span>
+      </div>
+      <div class="project-toolbar"><p>Five problems I’ve been exploring.</p><div class="project-filters" role="group" aria-label="Filter projects"><button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All <span>05</span></button><button class="filter-button" type="button" data-filter="research" aria-pressed="false">Research <span>03</span></button><button class="filter-button" type="button" data-filter="software" aria-pressed="false">Software <span>02</span></button></div></div>
+      <div class="project-grid">
+        <article class="project project-featured" data-category="research" data-project="vascular">
+          <button class="project-image image-vascular" type="button" aria-label="Read about Vascular Age Prediction">
+            <span class="visual-kicker">DATA / 01</span><span class="vascular-visual" aria-hidden="true"><span class="axis axis-x"></span><span class="axis axis-y"></span><span class="plot-line"></span><i class="plot-point p1"></i><i class="plot-point p2"></i><i class="plot-point p3"></i><i class="plot-point p4"></i><i class="plot-point p5"></i><span class="plot-caption">SIGNAL → ESTIMATE</span></span><span class="image-label">AI/ML · HEALTHCARE RESEARCH</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info"><div><h3>Vascular Age Prediction</h3><p>Exploring vascular-age estimation from arterial-stiffness and clinical measurements.</p></div><span class="project-year">01</span></div>
+          <div class="project-tags"><span>Regression</span><span>Data analysis</span><span>Research</span></div>
+        </article>
+        <article class="project" data-category="research" data-project="ecg">
+          <button class="project-image image-ecg" type="button" aria-label="Read about CLEF ECG Foundation Model">
+            <span class="visual-kicker">SIGNAL / 02</span><span class="ecg-visual" aria-hidden="true"><span class="ecg-grid"></span><svg viewBox="0 0 800 300" preserveAspectRatio="none"><path d="M0 158H115l25-4 15 5h60l16-8 13 10 19-5h65l19-7 18 12 18-6h54l20-84 22 174 24-91 18 7h80l17-5 12 6h72l17-7 14 9h72" /></svg><span class="ecg-readout">CLEF-SMALL<br>ECG → AGE</span></span><span class="image-label">AI/ML · SIGNAL PROCESSING</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info"><div><h3>CLEF ECG Foundation Model</h3><p>A CPU-compatible ECG age-estimation workflow with input checks and participant-level split auditing.</p></div><span class="project-year">02</span></div>
+          <div class="project-tags"><span>ECG</span><span>Foundation model</span><span>PyTorch</span></div>
+        </article>
+        <article class="project" data-category="software" data-project="mntn">
+          <button class="project-image image-mntn" type="button" aria-label="Read about MNTN Landing Page">
+            <span class="visual-kicker">INTERFACE / 03</span><span class="mntn-visual" aria-hidden="true"><span class="mntn-nav">MNTN <span>ABOUT&nbsp;&nbsp; EXPLORE&nbsp;&nbsp; JOURNAL</span></span><span class="mntn-copy"><small>A HIKER’S GUIDE</small><strong>THE GREAT<br>OUTDOORS</strong><span>01 — DISCOVER</span></span><span class="mntn-sun"></span></span><span class="image-label">FRONTEND · HTML / CSS / JS</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info"><div><h3>MNTN Landing Page</h3><p>A landing-page implementation focused on layout, styling, and frontend detail.</p></div><span class="project-year">03</span></div>
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project" data-category="software" data-project="trustlens">
+          <button class="project-image image-trustlens" type="button" aria-label="Read about TrustLens">
+            <span class="visual-kicker">LEARNING / 04</span><span class="trustlens-visual" aria-hidden="true"><span class="trustlens-top"><b>trustlens</b><i>LEARNING MAP / 01</i></span><span class="trustlens-title">Find the<br><em>missing link.</em></span><span class="learning-map"><i>FOUNDATIONS</i><b>Fractions</b><b>Ratios</b><b class="map-current">Linear equations</b><b>Functions</b><i class="map-connector"></i></span><span class="trustlens-footer">A clearer next step for every learner</span></span><span class="image-label">EDTECH · PRODUCT CONCEPT</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info"><div><h3>TrustLens</h3><p>An SDG 4-oriented learning-support concept for identifying prerequisite gaps and planning focused revision.</p></div><span class="project-year">04</span></div>
+          <div class="project-tags"><span>Learning support</span><span>Product concept</span><span>SDG 4</span></div>
+        </article>
+        <article class="project" data-category="research" data-project="neat">
+          <button class="project-image image-neat" type="button" aria-label="Read about Flappy Bird AI with NEAT">
+            <span class="visual-kicker">EVOLUTION / 05</span><span class="neat-visual" aria-hidden="true"><span class="neat-generation">GENERATION <b>042</b></span><span class="neat-network"><i class="node input-node n1"></i><i class="node input-node n2"></i><i class="node input-node n3"></i><i class="node hidden-node n4"></i><i class="node hidden-node n5"></i><i class="node hidden-node n6"></i><i class="node output-node n7"></i><span class="network-edge e1"></span><span class="network-edge e2"></span><span class="network-edge e3"></span><span class="network-edge e4"></span><span class="network-edge e5"></span><span class="network-edge e6"></span><span class="network-edge e7"></span><span class="network-edge e8"></span></span><span class="neat-score">FITNESS <b>0.87</b></span></span><span class="image-label">AI · NEUROEVOLUTION EXPERIMENT</span><span class="image-arrow" aria-hidden="true">↗</span>
+          </button>
+          <div class="project-info"><div><h3>Flappy Bird AI with NEAT</h3><p>Exploring how neural-network agents evolve strategies through neuroevolution in a Flappy Bird-style environment.</p></div><span class="project-year">05</span></div>
+          <div class="project-tags"><span>NEAT</span><span>Neural networks</span><span>Simulation</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-inner section-shell">
+        <div class="about-label"><p class="eyebrow">THE PERSON BEHIND THE BUILDS</p><span class="about-doodle" aria-hidden="true">✳</span><span class="about-index">ABOUT / 01</span></div>
+        <div class="about-copy"><h2 id="about-title">Curious by training.<br><span>Builder by habit.</span></h2>
+          <p>I’m Kota Sai Santhosh, a B.Tech student in Communication and Computer Engineering at The LNM Institute of Information Technology, Jaipur.</p>
+          <p>I like moving between software and engineering: building full-stack interfaces, experimenting with machine learning, and investigating signals and data. I’m especially drawn to work where careful technical thinking can make a complicated idea clearer and more useful.</p>
+          <a class="text-link" href="about.html">More about my path <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="about-note"><span>STUDYING</span><strong>Communication &amp;<br>Computer Engineering</strong><span>BASED AT</span><strong>LNMIIT · Jaipur</strong></div>
+      </div>
+    </section>
+
+    <section class="skills-section section-shell" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><div><p class="eyebrow">TOOLS I REACH FOR</p><h2 id="skills-title">A working toolkit<span class="period">.</span></h2></div><span class="section-count">ALWAYS LEARNING</span></div>
+      <div class="skills-list">
+        <div class="skill-row"><span class="skill-number">01</span><h3>Languages</h3><p>C · C++ · Java · JavaScript · TypeScript · MATLAB</p><span class="skill-mark" aria-hidden="true">↘</span></div>
+        <div class="skill-row"><span class="skill-number">02</span><h3>Web &amp; software</h3><p>HTML · CSS · React · Redux · Tailwind · Node.js · Express</p><span class="skill-mark" aria-hidden="true">↘</span></div>
+        <div class="skill-row"><span class="skill-number">03</span><h3>AI, data &amp; signals</h3><p>Regression · Neural networks · NEAT · ECG · DSP · Data analysis</p><span class="skill-mark" aria-hidden="true">↘</span></div>
+        <div class="skill-row"><span class="skill-number">04</span><h3>Embedded</h3><p>Arduino Nano · ESP32-C6 · PIR · DHT22</p><span class="skill-mark" aria-hidden="true">↘</span></div>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experience" aria-labelledby="experience-title">
+      <div class="experience-inner section-shell">
+        <div class="section-heading"><div><p class="eyebrow">LEARNING BY DOING</p><h2 id="experience-title">Experience &amp; education<span class="period">.</span></h2></div><span class="section-count">IN PROGRESS</span></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-pin"></span><div class="timeline-meta">SOFTWARE DEVELOPMENT · INTERNSHIP</div><div class="timeline-main"><h3>Elementik Technologies</h3><p>Software development internship, described as full-stack work. Specific dates, tools, and deliverables to be added when confirmed.</p></div><span class="timeline-date">DATES TO CONFIRM</span></article>
+          <article class="timeline-item"><span class="timeline-pin"></span><div class="timeline-meta">TEACHING &amp; PEER SUPPORT</div><div class="timeline-main"><h3>DSA Teaching Assistant</h3><p>Supported 100+ students during Data Structures and Algorithms lab sessions as they worked through programming and problem-solving exercises.</p></div><span class="timeline-date">100+ STUDENTS</span></article>
+          <article class="timeline-item"><span class="timeline-pin"></span><div class="timeline-meta">B.TECH · COMMUNICATION AND COMPUTER ENGINEERING</div><div class="timeline-main"><h3>The LNM Institute of Information Technology</h3><p>Studying software engineering, computer systems, communication, signal processing, and AI/ML at LNMIIT in Jaipur.</p></div><span class="timeline-date">JAIPUR, INDIA</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="notes-section section-shell" aria-labelledby="notes-title">
+      <div class="notes-title"><p class="eyebrow">MILESTONES &amp; IDEAS</p><h2 id="notes-title">A few things<br>along the way<span class="period">.</span></h2></div>
+      <div class="notes-grid"><article class="note-item"><span>01 / SELECTED</span><h3>Amazon ML Summer School 2026</h3><p>Selected for the 2026 program.</p></article><article class="note-item"><span>02 / CONCEPT</span><h3>TrustLens</h3><p>An SDG 4-oriented learning-support concept for spotting prerequisite knowledge gaps and planning focused revision.</p></article><article class="note-item"><span>03 / EXPERIMENT</span><h3>Flappy Bird AI with NEAT</h3><p>Exploring neuroevolution through neural-network agents in a Flappy Bird-style environment.</p></article></div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact" aria-labelledby="contact-title">
+      <div class="contact-kicker"><span class="eyebrow">FOR PROJECTS, QUESTIONS &amp; GOOD CONVERSATIONS</span><span class="contact-star" aria-hidden="true">✳</span></div>
+      <h2 id="contact-title">Have a question?<br><span>Let’s talk.</span></h2>
+      <div class="contact-bottom">
+        <a class="email-link" href="mailto:kotasaisanthosh.cs25@rvce.edu.in">kotasaisanthosh.cs25@rvce.edu.in <span aria-hidden="true">↗</span></a>
+        <p class="contact-note">I’m happy to talk about software, AI/ML,<br>research, or a project you’re building.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><a class="wordmark" href="#home">KS<span>.</span></a><span>Kota Sai Santhosh · Engineering portfolio</span><a class="back-top" href="#home">BACK TO TOP ↑</a><span>© <span id="year"></span></span></footer>
+
+  <dialog class="project-dialog" aria-labelledby="dialog-title"><form method="dialog"><button class="dialog-close" aria-label="Close project details">×</button></form><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-tags" id="dialog-tags"></div><a class="dialog-resource" id="dialog-link" href="#" target="_blank" rel="noreferrer">Explore project resource <span aria-hidden="true">↗</span></a></dialog>
+</body>
+</html>
